@@ -1,0 +1,47 @@
+@import "../../scss/variables.scss";
+
+.initial-page {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 5%;
+
+  background: hsla(332, 73%, 24%, 1);
+
+  background: linear-gradient(
+    135deg,
+    hsla(332, 73%, 24%, 1) 0%,
+    hsla(231, 25%, 11%, 1) 100%
+  );
+
+  background: -moz-linear-gradient(
+    315deg,
+    hsla(332, 73%, 24%, 1) 0%,
+    hsla(231, 25%, 11%, 1) 100%
+  );
+
+  background: -webkit-linear-gradient(
+    315deg,
+    hsla(332, 73%, 24%, 1) 0%,
+    hsla(231, 25%, 11%, 1) 100%
+  );
+  .initial-title{
+    display: flex;
+    flex-direction: column;
+    color: $color-text-white;
+    font-weight: 400;
+    margin-bottom: 1rem;
+    .title-1{
+      font-size: 2.5rem;
+    }
+    .title-2{
+      font-size: 1.5rem;
+    }
+  }
+  .button-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
