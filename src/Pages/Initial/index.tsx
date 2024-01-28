@@ -2,6 +2,7 @@ import { FC } from "react";
 
 import "./style.scss";
 import Button from "../Common/Button/Button";
+//test
 
 const Initial: FC = () => {
   return (
