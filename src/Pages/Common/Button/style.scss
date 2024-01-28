@@ -1,0 +1,67 @@
+@import "../../../scss/variables.scss";
+
+.darkButton {
+  background: hsla(50, 68%, 93%, 1);
+  color: $color-text-white;
+  font-size: 1.1rem;
+  font-weight: 100;
+  letter-spacing: 0.4em;
+
+  background: linear-gradient(
+    0deg,
+    hsla(50, 68%, 93%, 1) 0%,
+    hsla(338, 96%, 49%, 1) 0%,
+    hsla(320, 41%, 49%, 1) 46%,
+    hsla(189, 86%, 62%, 1) 100%
+  );
+
+  background: -moz-linear-gradient(
+    0deg,
+    hsla(50, 68%, 93%, 1) 0%,
+    hsla(338, 96%, 49%, 1) 0%,
+    hsla(320, 41%, 49%, 1) 46%,
+    hsla(189, 86%, 62%, 1) 100%
+  );
+
+  background: -webkit-linear-gradient(
+    0deg,
+    hsla(50, 68%, 93%, 1) 0%,
+    hsla(338, 96%, 49%, 1) 0%,
+    hsla(320, 41%, 49%, 1) 46%,
+    hsla(189, 86%, 62%, 1) 100%
+  );
+  border: none;
+  width: 20rem;
+  height: 3rem;
+  border-radius: 0.5rem;
+}
+.darkButton:hover {
+  background: hsla(50, 68%, 93%, 1);
+
+  background: linear-gradient(
+    180deg,
+    hsla(50, 68%, 93%, 1) 0%,
+    hsla(338, 96%, 49%, 1) 0%,
+    hsla(320, 41%, 49%, 1) 45%,
+    hsla(189, 86%, 62%, 1) 100%
+  );
+
+  background: -moz-linear-gradient(
+    180deg,
+    hsla(50, 68%, 93%, 1) 0%,
+    hsla(338, 96%, 49%, 1) 0%,
+    hsla(320, 41%, 49%, 1) 45%,
+    hsla(189, 86%, 62%, 1) 100%
+  );
+
+  background: -webkit-linear-gradient(
+    180deg,
+    hsla(50, 68%, 93%, 1) 0%,
+    hsla(338, 96%, 49%, 1) 0%,
+    hsla(320, 41%, 49%, 1) 45%,
+    hsla(189, 86%, 62%, 1) 100%
+  );
+}
+
+.softButton {
+}
